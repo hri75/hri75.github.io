@@ -1,0 +1,45 @@
+/* это переменные, задают цвета */
+:root {
+    --color_font: #333;
+}
+
+@font-face {
+    font-family: "MyRobotoMedium";
+    src: url("../font/roboto-medium.woff2") format("woff2"),
+    url("../font/roboto-medium.woff") format("woff");
+    }
+
+    @font-face {
+        font-family: "MyRobotoRegular";
+        src: url("../font/roboto-regular.woff2") format("woff2"),
+        url("../font/roboto-regular.woff") format("woff");
+        }
+    
+body {
+    color: var(--color_font);
+    font-family: "MyRobotoRegular", sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.rust_border_red {
+    border: 1px solid red;
+}
+
+.rust_border_green {
+    border: 1px solid green;
+}
+
+.rust_fio {
+    font-size: 40px;
+    font-family: "MyRobotoMedium", sans-serif;   
+}
+
