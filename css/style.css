@@ -30,6 +30,44 @@ p {
     border: 1px solid black;
 }
 
+.rust_fio {
+    font-size: 40px;
+    font-family: "MyRobotoMedium", sans-serif;   
+}
+
+.rust_text_align_right {
+    text-align: right;
+}
+
+.rust_text_align_justify {
+    text-align: justify;
+}
+
+.rust_header {
+    margin-top: 70px;
+}
+
+.rust_line {
+     border: 3px dotted var(--color_font);;
+}
+
+.rust_hr_dashed {
+	padding: 0;
+	margin: 0;
+	height: 0;
+	border: none;
+	border-top: 3px dashed #555;
+    background: #fff;
+}
+
+.rust_margin_top {
+    margin-top: 40px;
+}
+
+.rust_profile_img {
+    padding-bottom: 40px;
+}
+
 .rust_border_red {
     border: 1px solid red;
 }
@@ -38,8 +76,11 @@ p {
     border: 1px solid green;
 }
 
-.rust_fio {
-    font-size: 40px;
-    font-family: "MyRobotoMedium", sans-serif;   
+.rust_border_blue {
+    border: 1px solid blue;
+}
+
+.rust_border_yellow {
+    border: 1px solid yellow;
 }
 
