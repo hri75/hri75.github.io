@@ -4,20 +4,24 @@
 }
 
 @font-face {
-    font-family: "MyRobotoMedium";
-    src: url("../font/roboto-medium.woff2") format("woff2"),
-    url("../font/roboto-medium.woff") format("woff");
-    }
+    font-family: "MyRobotoLight300";
+    src: url("../font/roboto-light-300.woff2") format("woff2");
+}
 
-    @font-face {
-        font-family: "MyRobotoRegular";
-        src: url("../font/roboto-regular.woff2") format("woff2"),
-        url("../font/roboto-regular.woff") format("woff");
-        }
-    
+@font-face {
+    font-family: "MyRobotoRegular400";
+    src: url("../font/roboto-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "MyRobotoMedium500";
+    src: url("../font/roboto-medium-500.woff2") format("woff2");
+}
+
+
 body {
     color: var(--color_font);
-    font-family: "MyRobotoRegular", sans-serif;
+    font-family: "MyRobotoRegular400", sans-serif;
     font-size: 16px;
 }
 
@@ -33,19 +37,23 @@ p {
     margin-top: 40px;
 }
 
+.mt_20 {
+    margin-top: 20px;
+}
+
 .ml_40 {
     margin-left: 40px;
 }
 
 
-.rust_fio {
+.rust_font_fio {
     font-size: 40px;
-    font-family: "MyRobotoMedium", sans-serif;   
+    font-family: "MyRobotoMedium500", sans-serif;   
 }
 
-.rust_stack {
+.rust_font_stack {
     font-size: 24px;
-    font-family: "MyRobotoRegular", sans-serif;
+    font-family: "MyRobotoLight300", sans-serif;
 }
 
 .rust_text_align_right {
