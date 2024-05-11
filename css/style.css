@@ -25,14 +25,27 @@ p {
     margin: 0;
 }
 
-.box {
-    background-color: bisque;
-    border: 1px solid black;
+.mt_70 {
+    margin-top: 70px;
 }
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.ml_40 {
+    margin-left: 40px;
+}
+
 
 .rust_fio {
     font-size: 40px;
     font-family: "MyRobotoMedium", sans-serif;   
+}
+
+.rust_stack {
+    font-size: 24px;
+    font-family: "MyRobotoRegular", sans-serif;
 }
 
 .rust_text_align_right {
@@ -43,12 +56,8 @@ p {
     text-align: justify;
 }
 
-.rust_header {
-    margin-top: 70px;
-}
-
 .rust_line {
-     border: 3px dotted var(--color_font);;
+     border: 3px dotted var(--color_font);
 }
 
 .rust_hr_dashed {
@@ -60,12 +69,16 @@ p {
     background: #fff;
 }
 
-.rust_margin_top {
-    margin-top: 40px;
-}
-
 .rust_profile_img {
     padding-bottom: 40px;
+}
+
+
+/* вспомогательные классы, чтобы увидеть разметку, потом удалить */
+
+.box {
+    background-color: bisque;
+    border: 1px solid black;
 }
 
 .rust_border_red {
