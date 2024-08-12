@@ -60,15 +60,16 @@
 
         <ul class="ml_40 mt_40">
             <li>XML-верстка</li>
-            <li>Compose</li>
+            <!-- <li>Compose</li> -->
             <li>Coroutines</li>
             <li>MVVM (UDF-подход)</li>
-            <li>MVIKotlin</li>
+            <!-- <li>MVIKotlin</li> -->
             <li>Room</li>
             <li>Retrofit</li>
             <li>Hilt</li>
-            <li>Koin</li>
-            <li>AppAuth (авторизация по стандарту OAuth 2.0)</li>
+            <li>Dagger2</li>
+            <!-- <li>Koin</li> -->
+            <!-- <li>AppAuth (авторизация по стандарту OAuth 2.0)</li> -->
             <li>Clean Architecture</li>
         </ul>                
     </section>
@@ -80,7 +81,7 @@
         <hr class="rust_hr_dashed">
     </section>
 
-    <section class="container mt_20">
+    <section class="container mt_40">
         <p class="text-center rust_font_app_name">
             Заказ-наряды Агро-Сервис
         </p>
@@ -88,7 +89,7 @@
             <a href="https://github.com/harisov-mobile/WorkOrderApplication">https://github.com/harisov-mobile/WorkOrderApplication</a>
         </p>
         <p>
-            Мобильное приложение “Заказ-наряды Агро-Сервис” разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.<br>
+            <br>Мобильное приложение “Заказ-наряды Агро-Сервис” разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.<br>
             В качестве бэк-энда используется программа “1С-Альфа-Авто 5”.    
         </p>
         <p>
@@ -97,6 +98,10 @@
         <p>
             <br>Приложение опубликовано в Гугл Плей Маркете: <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication">https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication</a>
         </p>
+        <p>
+            <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication"><img src="img/GooglePlay.png" alt=""></a>
+        </p>
+
         <p class="ml_50 mt_20 rust_font_app_stack">
             Стек приложения "Заказ-наряды Агро-Сервис"
         </p>
@@ -106,7 +111,7 @@
         <ul class="ml_40 mt_20">
             <li>XML-верстка</li>
             <li>Single activity</li>
-            <li>Single module</li>
+            <li>Multi-module (модули разбиты по фичам)</li>
             <li>Coroutines</li>
             <li>MVVM (UDF-подход)</li>
             <li>Room</li>
@@ -123,8 +128,225 @@
         <img class="rust_app_img" src="img/workorder/InputWork.png" alt="Input work" title="Input work">
         <img class="rust_app_img" src="img/workorder/Filter.png" alt="Filter" title="Filter">
         <img class="rust_app_img" src="img/workorder/FilteredList.png" alt="Filtered list" title="Filtered list">
+        
     </section>
-    
+
+    <section class="container mt_20">
+        <hr class="rust_hr_dashed">
+    </section>
+
+    <section class="container mt_40">
+        <p class="text-center rust_font_app_name">
+            Где я?
+        </p>
+        <p class="text-center rust_font_link">
+            <a href="https://github.com/harisov-mobile/WhereAmI">https://github.com/harisov-mobile/WhereAmI</a>
+        </p>
+        <p>
+            <br>Приложение “Где я?” показывает Ваше текущее местоположение на карте.<br>
+            Приложение может показать маршрут от Вашего местоположения до выбранной точки на карте.<br>
+            Маршрут можно показать для пешехода, для велосипедиста или для автомобиля.<br>
+        </p>
+        <p>
+            <br>В качестве картографического сервиса используется OpenStreetMap, библиотека Osmdroid.
+        </p>
+        <p>
+            <br>Приложение опубликовано в Гугл Плей Маркете: <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.whereami">https://play.google.com/store/apps/details?id=ru.internetcloud.whereami</a>
+        </p>
+        <p>
+            <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.whereami"><img src="img/GooglePlay.png" alt=""></a>
+        </p>
+
+        <p class="ml_50 mt_20 rust_font_app_stack">
+            Стек приложения "Где я?"
+        </p>
+        
+        <hr class="rust_hr_dashed">
+
+        <ul class="ml_40 mt_20">
+            <li>XML-верстка</li>
+            <li>Single activity</li>
+            <li>Single module</li>
+            <li>Coroutines</li>
+            <li>MVVM (UDF-подход)</li>
+            <li>Dagger2</li>
+            <li>Clean Architecture</li>
+            <li>Osmdroid</li>
+        </ul> 
+        
+        <img class="rust_app_img" src="img/whereami/Splashscreen.png" alt="Splashscreen" title="Splashscreen">
+        <img class="rust_app_img" src="img/whereami/BogginiPark.png" alt="BogginiPark" title="BogginiPark">
+        <img class="rust_app_img" src="img/whereami/Address.png" alt="Address" title="Address">
+        <img class="rust_app_img" src="img/whereami/Foot.png" alt="Foot" title="Foot">
+        <img class="rust_app_img" src="img/whereami/Bike.png" alt="Bike" title="Bike">
+        <img class="rust_app_img" src="img/whereami/Car.png" alt="Car" title="Car">
+    </section>
+
+    <section class="container mt_20">
+        <hr class="rust_hr_dashed">
+    </section>
+
+    <section class="container mt_40">
+        <p class="text-center rust_font_app_name">
+            My Strava
+        </p>
+        <p class="text-center rust_font_link">
+            <a href="https://github.com/harisov-mobile/kts-2023-strava-app">https://github.com/harisov-mobile/kts-2023-strava-app</a>
+        </p>
+        <p>
+            <br>Приложение “My Strava” - клиент для сервиса Strava.<br>
+            Strava - это сервис для отслеживания активности спортсменов с помощью мобильных устройств и социальная сеть для спортсменов,<br>
+            где спортсмены могут сравнивать свои результаты, ставить цели, общаться и т. д.<br>
+            <br>Функционал приложения:<br>
+            Для пользователя, который авторизовался в приложении с помощью аккаунта Strava:<br>
+            <ul>
+                <li>Просмотр тренировок пользователя;</li>
+                <li>Просмотр детальной информации о тренировке;</li>
+                <li>Добавление новой тренировки пользователя или редактирование существующей тренировки;</li>
+                <li>Просмотр информации о профиле пользователя;</li>
+                <li>Оффлайн-режим;</li>
+                <li>Логаут (выход из аккаунта пользователя).</li>
+            </ul>             
+        </p>
+        <p class="ml_50 mt_20 rust_font_app_stack">
+            Стек приложения "My Strava"
+        </p>
+        
+        <hr class="rust_hr_dashed">
+
+        <ul class="ml_40 mt_20">
+            <li>XML-разметка & Compose</li>
+            <li>Single activity</li>
+            <li>Single module</li>
+            <li>Coroutines</li>
+            <li>MVVM</li>
+            <li>MVI Kotlin (на одном из экранов)</li>
+            <li>Room</li>
+            <li>Retrofit</li>
+            <li>AppAuth (авторизация по стандарту OAuth 2.0)</li>
+            <li>Koin</li>
+            <li>Clean Architecture</li>
+        </ul> 
+        
+        <img class="rust_app_img" src="img/mystrava/OnBoarding.png" alt="OnBoarding" title="OnBoarding">
+        <img class="rust_app_img" src="img/mystrava/Training_list.png" alt="Training list" title="Training list">
+        <img class="rust_app_img" src="img/mystrava/Training_detail.png" alt="Training detail" title="Training detail">
+        <img class="rust_app_img" src="img/mystrava/Training_edit.png" alt="Training edit" title="Training edit">
+        <img class="rust_app_img" src="img/mystrava/Sport_picker.png" alt="Sport picker" title="Sport picker">
+        <!-- <img class="rust_app_img" src="img/mystrava/Date_picker.png" alt="Date picker" title="Date picker"> -->
+        <!-- <img class="rust_app_img" src="img/mystrava/Time_picker.png" alt="Time picker" title="Time picker"> -->
+        <img class="rust_app_img" src="img/mystrava/Duration_picker.png" alt="Duration picker" title="Duration picker">
+        <img class="rust_app_img" src="img/mystrava/Profile.png" alt="Profile" title="Profile">
+        <img class="rust_app_img" src="img/mystrava/Logout.png" alt="Logout" title="Logout">
+    </section>
+
+    <section class="container mt_70">
+        <p class="text-center rust_font_stack">
+            Опыт работы
+        </p>
+        <hr class="rust_hr_dashed">
+        <p class="mt_40"></p>
+        <div class="row">
+            <div class="col-xl-3 col-md-4">
+                <p class="rust_font_organization">
+                    ООО "Агро-Сервис"
+                </p>
+                <p class="rust_font_profession mt_10">
+                    Андроид разработчик
+                </p>
+                <p class="rust_font_date_range">
+                    2022 - по настоящее время
+                </p>
+            </div>
+            <div class="col-md-8">
+                <p class="rust_text_align_justify">Разработал мобильное приложение для Андроид “Заказ-наряды Агро-Сервис” для автоматизации работы с заказ-нарядами для сервисных инженеров.</p>
+                <p class="rust_text_align_justify">Ссылка на приложение в Гугл Плей Маркете: Work Order Application</p>
+            </div>
+        </div>
+        <div class="row mt_40">
+            <div class="col-xl-3 col-md-4">
+                <p class="rust_font_organization">
+                    Различные<br>организации
+                </p>
+                <p class="rust_font_profession mt_10">
+                    Программист 1С
+                </p>
+                <p class="rust_font_date_range">
+                    2012 - 2022
+                </p>
+            </div>
+            <div class="col-md-8">
+                <p class="rust_text_align_justify">Доработки конфигураций 1С УТ10.3, Альфа-Авто-5, БП 3.0 под задачи предприятия, создание двустороннего обмена между УТ10.3 и веб-сайтом предприятия на HTTP-сервисах (REST).</p>
+                <p class="rust_text_align_justify">Создание различных печатных форм, отчетов, обработок для 1С, правил конвертации для КД 2.0 для обменов и т.д.</p>
+                <p class="rust_text_align_justify">На одном из предприятий удалось поработать по методике Agile со спринтами, ретроспективами, “покером”, стори-поинтами и т.д.</p>
+            </div>
+        </div>
+        <div class="row mt_40">
+            <div class="col-xl-3 col-md-4">
+                <p class="rust_font_organization">
+                    Различные<br>организации
+                </p>
+                <p class="rust_font_profession mt_10">
+                    Инженер-программист
+                </p>
+                <p class="rust_font_date_range">
+                    2008 - 2012
+                </p>
+            </div>
+            <div class="col-md-8">
+                <p class="rust_text_align_justify">Доработка существующих программ на FoxPro.</p>
+                <p class="rust_text_align_justify">Создание небольших программ для внутренних нужд предприятия на Delphi.</p>
+                <p class="rust_text_align_justify">Доработка программ на Visual Basic for Access.</p>
+                <p class="rust_text_align_justify">Интеграция между существующими на предприятии базами данных MS SQL Server, MS Access и 1С:УПП 8.1.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt_70">
+        <p class="text-center rust_font_stack">
+            Образование
+        </p>
+        <hr class="rust_hr_dashed">
+        <p class="mt_40"></p>
+        <div class="row">
+            <div class="col-xl-3 col-md-4 pr_20">
+                <p class="rust_font_organization">
+                    Казанский государственный технический университет им. А.Н.Туполева (КАИ)
+                </p>
+                <p class="rust_font_profession mt_10">
+                    Инженер по автоматизированным системам управления
+                </p>
+                <p class="rust_font_date_range">
+                    2002 - 2008
+                </p>
+            </div>
+            <div class="col-md-8">
+                <p class="rust_text_align_justify">Факультет технической кибернетики и информатики. Кафедра Автоматизированных Систем Обработки Информации и Управления.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt_70">
+        <p class="text-center rust_font_stack">
+            Хобби
+        </p>
+        <hr class="rust_hr_dashed">
+        <p class="mt_40"></p>
+
+        <ul class="ml_40">
+            <li>Прогулки на велосипеде в парке.</li>
+        </ul>                
+    </section>
+
+    <section class="container mt_70">
+        <p class="text-center rust_font_link">
+            Harisov Rustam &nbsp &nbsp &nbsp harisov.mobile@gmail.com &nbsp &nbsp &nbsp <a href="https://t.me/mob_dev_mob">t.me/mob_dev_mob</a>
+        </p>
+        <p class="text-center rust_font_link">
+            <br>
+        </p>
+    </section>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

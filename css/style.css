@@ -61,7 +61,6 @@
     font-style: italic;    
 }
 
-
 .rust_font_app_stack {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
@@ -75,6 +74,31 @@
     font-weight: 300;
     font-style: italic;    
 }
+
+/* шрифт для Опыта работы */
+
+.rust_font_organization {
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.rust_font_profession {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;       
+}
+
+.rust_font_date_range {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;    
+}
+
 
 /* прочее */
 
@@ -102,12 +126,21 @@ p {
     margin-top: 20px;
 }
 
+.mt_10 {
+    margin-top: 10px;
+}
+
+
 .ml_40 {
     margin-left: 40px;
 }
 
 .ml_50 {
     margin-left: 50px;
+}
+
+.pr_20 {
+    padding-right: 20px;
 }
 
 
